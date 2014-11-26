@@ -2,14 +2,14 @@ package LeetCode;
 
 import java.util.Arrays;
 
-class ListNode {
+/*class ListNode {
 	int val;
 	ListNode next;
 	ListNode(int x) {
 		val = x;
 		next = null;
 	}
-}
+}*/
 /**
  * 空间复杂度为O(n)，该方法不符合常数空间复杂度的要求!!!!
  * 拷贝到数组，采用Arrays.sort()方法排序，再拷贝回来

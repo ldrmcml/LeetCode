@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans	xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd ">
+	<bean id="animal" class="ccnt.cml.myspring.Cat">
+		<property name="name" value="kitty" />
+	</bean>
+	<!-- <bean id="test" class="Test">
+		<property name="testMap">
+			<map>
+				<entry key="a">
+					<value>1</value>
+				</entry>
+				<entry key="b">
+					<value>2</value>
+				</entry>
+			</map>
+		</property>
+	</bean> -->
+	
+</beans>
