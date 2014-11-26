@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans>  
+    <bean id = "javaBean" class="ccnt.cml.myspring.ioc.JavaBean">  
+        <property name="userName">  
+            <value>这是姓名</value>  
+        </property>  
+        <property name="passWord">  
+            <value>这是密码</value>  
+        </property>  
+    </bean>  
+</beans>  
