@@ -13,7 +13,7 @@ public class TestSplit {
 			for(String str:br.readLine().split(";"))
 			System.out.println(str);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			// TODO Auto-generated catch block 
 			e.printStackTrace();
 		}*/
 		//data[0][1]="aa";
