@@ -5,7 +5,7 @@
 
 # 忽略bin目录，不忽略bin文件
 
-bin/
+/bin/
 
 # 忽略.classpath
 
