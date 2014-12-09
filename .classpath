@@ -10,6 +10,17 @@
 	<classpathentry kind="lib" path="libs/spring-context-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="libs/spring-core-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="libs/spring-expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/jxl.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.26.jar"/>
+	<classpathentry kind="lib" path="libs/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="libs/poi-examples-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="libs/poi-excelant-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="libs/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="libs/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="libs/poi-scratchpad-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="libs/xmlbeans-2.3.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="output" path="bin"/>    
+	<classpathentry kind="output" path="bin"/>
 </classpath>
