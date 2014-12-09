@@ -11,5 +11,5 @@
 	<classpathentry kind="lib" path="libs/spring-core-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="libs/spring-expression-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="output" path="bin"/>  
+	<classpathentry kind="output" path="bin"/>
 </classpath>
