@@ -1,7 +1,7 @@
 # 以'#'开始的行，被视为注释.                                                                                                                          
 
 # 忽略掉配置文件
-/.settings
+.settings
 
 # 忽略bin目录，不忽略bin文件
 
@@ -9,7 +9,7 @@ bin/
 
 # 忽略.classpath
 
-/.classpath
+.classpath
 
 # 忽略.project
 .project
