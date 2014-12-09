@@ -44,7 +44,6 @@ public class StringtoInteger {
 		try {
 			num = atoi("-1123qwe123");
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		System.out.println(num);
