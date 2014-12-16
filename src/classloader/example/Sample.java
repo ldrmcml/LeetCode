@@ -1,4 +1,4 @@
-package com.example;
+package classloader.example;
 
 public class Sample {
 	private Sample instance;

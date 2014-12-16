@@ -1,4 +1,4 @@
-package com.example;
+package classloader.example;
 
 import classloader.ICalculator;
 

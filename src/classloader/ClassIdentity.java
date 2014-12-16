@@ -10,10 +10,10 @@ public class ClassIdentity {
 	}
 	
 	public void testClassIdentity() {
-		String classDataRootPath = "C:\\Documents and Settings\\Administrator\\workspace\\Classloader\\classData";
+		String classDataRootPath = "D:\\Program Files\\eclipse\\workspace\\LeetCode\\bin";
 		FileSystemClassLoader fscl1 = new FileSystemClassLoader(classDataRootPath);
 		FileSystemClassLoader fscl2 = new FileSystemClassLoader(classDataRootPath);
-		String className = "com.example.Sample";	
+		String className = "classloader.example.Sample";	
 		try {
 			Class<?> class1 = fscl1.loadClass(className);
 			Object obj1 = class1.newInstance();
@@ -23,6 +23,6 @@ public class ClassIdentity {
 			setSampleMethod.invoke(obj1, obj2);
 		} catch (Exception e) {
 			e.printStackTrace();
-		} 
+		}
 	}
 }
