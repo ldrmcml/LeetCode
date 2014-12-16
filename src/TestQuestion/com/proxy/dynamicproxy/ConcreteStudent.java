@@ -1,6 +1,7 @@
 package TestQuestion.com.proxy.dynamicproxy;
 
-public class ConcreteResource implements Resource,Student {
+public class ConcreteStudent implements Student {
+	@Override
     public void operationA() {
         System.out.println("Operation A.");
     }
@@ -13,6 +14,6 @@ public class ConcreteResource implements Resource,Student {
 	@Override
 	public void operationD() {
 		// TODO Auto-generated method stub
-		System.out.println("Operation D.");
+		
 	}
 }
