@@ -1,6 +1,9 @@
+import java.io.File;
+import java.io.IOException;
 
-/*public class JavaOpenFileFolder {
-	java.awt.Desktop.getDesktop().open(new File("D:\\altera"));
-	//java.awt.Desktop.getDesktop().browse();
-
-}*/
+public class JavaOpenFileFolder {
+	public static void main(String[] args) throws IOException {
+		java.awt.Desktop.getDesktop().open(new File("D:\\LeetCode"));
+		// java.awt.Desktop.getDesktop().browse();
+	}
+}

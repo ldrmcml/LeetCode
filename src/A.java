@@ -1,7 +1,7 @@
 
-
 public class A {
-	public A(){
-		System.out.println("A is loaded by "+this.getClass().getClassLoader());
+	public A() {
+		System.out
+				.println("A is loaded by " + this.getClass().getClassLoader());
 	}
 }

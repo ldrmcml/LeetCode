@@ -55,5 +55,15 @@ public class TestMain {
 		ObjectInputStream in =new ObjectInputStream(byteIn);   
 		List dest = (List)in.readObject();   
 		return dest;   
-	}   
+	}
+	
+	public List<Userinfo> My(List<Userinfo> src) throws ClassNotFoundException, IOException {
+		ByteArrayOutputStream baos = new ByteArrayOutputStream();
+		ObjectOutputStream oos = new ObjectOutputStream(baos);
+		oos.writeObject(src);
+		// baos.toByteArray()开辟一块新的内存区域，创建字节数组
+		ByteArrayInputStream bais = new ByteArrayInputStream(baos.toByteArray());
+		ObjectInputStream ois = new ObjectInputStream(bais);
+		return (List<Userinfo>)ois.readObject();
+	}
 }  
