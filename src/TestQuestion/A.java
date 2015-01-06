@@ -1,3 +1,4 @@
+package TestQuestion;
 
 public class A {
 	public A() {
