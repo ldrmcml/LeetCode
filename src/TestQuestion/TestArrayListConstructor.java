@@ -29,8 +29,10 @@ public class TestArrayListConstructor {
 		ArrayList<Node> dest = new ArrayList<Node>(src);
 		dest.get(0).setData(3);
 		System.out.println(src+""+dest);
-		ArrayList<Node> dest1 = (ArrayList<Node>) src.clone();
-		dest1.get(0).setData(4);
-		System.out.println(src+""+dest+dest1);
+		src.get(0).setData(1);
+		System.out.println(src+""+dest);
+//		ArrayList<Node> dest1 = (ArrayList<Node>) src.clone();
+//		dest1.get(0).setData(4);
+//		System.out.println(src+""+dest+dest1);
 	}
 }
