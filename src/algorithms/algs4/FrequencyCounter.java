@@ -1,3 +1,6 @@
+import algorithms.stdlib.StdIn;
+import algorithms.stdlib.StdOut;
+
 /*************************************************************************
  *  Compilation:  javac FrequencyCounter.java
  *  Execution:    java FrequencyCounter L < input.txt
