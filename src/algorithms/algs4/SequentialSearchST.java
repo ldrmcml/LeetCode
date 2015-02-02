@@ -1,3 +1,8 @@
+package algorithms.algs4;
+
+import algorithms.stdlib.StdIn;
+import algorithms.stdlib.StdOut;
+
 /*************************************************************************
  *  Compilation:  javac SequentialSearchST.java
  *  Execution:    java SequentialSearchST

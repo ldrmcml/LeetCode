@@ -1,3 +1,5 @@
+package algorithms.algs4;
+
 import algorithms.stdlib.StdIn;
 import algorithms.stdlib.StdOut;
 
