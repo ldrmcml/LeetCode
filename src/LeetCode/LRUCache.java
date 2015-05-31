@@ -10,6 +10,7 @@ import java.util.HashMap;
  *
  */
 public class LRUCache {
+	// 内部类
 	class CacheEntry{
 		int key;
 		int value;
@@ -77,9 +78,10 @@ public class LRUCache {
         }
     }
     //将cEntry项移到双向链表的队首，即head直接后继的位置
+    //或者新增缓存项
     public void MoveToHead(CacheEntry cEntry){
     	//如果不为新建项，此时为第一种情况只是更新value值
-    	if(cEntry.pre!=null&&cEntry.pre!=null){
+    	if(cEntry.pre!=null&&cEntry.next!=null){
     		//此时需要更新两个指针，画图就很清楚了
     		cEntry.pre.next=cEntry.next;
     		cEntry.next.pre=cEntry.pre;
